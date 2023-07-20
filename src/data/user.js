@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-template-curly-in-string */
 const INFO = {
 	main: {
 		title: "Portfolio",
