@@ -24,7 +24,7 @@
 }
 
 .work:hover {
-	background: #f1f1f1;
+	background: var(--quaternary-color);
 	border-radius: 2rem;
 	transition: all 0.3s;
 }
@@ -65,5 +65,5 @@
 	padding: 1rem;
 	font-size: 12px;
 	text-align: right;
-	color: var(--tertiary-color);
+	color: var(--secondary-color);
 }
