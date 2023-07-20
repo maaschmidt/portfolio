@@ -15,6 +15,16 @@ const INFO = {
 		title: "Full-stack web developer, and amateur astronaut.",
 		description:
 			"Web developer with experience, knowledge in Node.js,	JavaScript, TypeScript, React, and databases. Skills in web system development and	maintenance, creating websites with React. I am seeking opportunities to apply my	knowledge and drive the development of innovative and efficient projects.",
+		works: [
+			{
+				logo: "./caf.png",
+				href: "https://caf.io",
+				title: "Caf",
+				position: "IT Intern",
+				duration: "2022 - 2023",
+			},
+		],
+		educations: [],
 	},
 
 	about: {

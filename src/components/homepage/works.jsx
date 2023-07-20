@@ -4,6 +4,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 import "./styles/works.css";
+import INFO from "../../data/user";
 
 const Works = () => {
 	return (
@@ -13,18 +14,20 @@ const Works = () => {
 				title="Work"
 				body={
 					<div className="works-body">
-						<div className="work">
-							<a href="https://caf.io/" target="_blank" rel="noreferrer">
-								<img src="./caf.png" alt="caf" className="work-image" />
-								<div className="work-description">
-									<div className="work-titles">
-										<div className="work-title">Caf</div>
-										<div className="work-subtitle">IT Intern</div>
+						{INFO.homepage.works.map((work, index) => (
+							<div className="work" key={index}>
+								<a href={work.href} target="_blank" rel="noreferrer">
+									<img src="./caf.png" alt="caf" className="work-image" />
+									<div className="work-description">
+										<div className="work-titles">
+											<div className="work-title">{work.title}</div>
+											<div className="work-subtitle">{work.position}</div>
+										</div>
+										<div className="work-duration">{work.duration}</div>
 									</div>
-									<div className="work-duration">2022 - 2023</div>
-								</div>
-							</a>
-						</div>
+								</a>
+							</div>
+						))}
 					</div>
 				}
 			/>
