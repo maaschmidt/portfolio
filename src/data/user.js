@@ -25,7 +25,8 @@ const INFO = {
 	},
 
 	projectsPage: {
-		title: "Things I have done to learn and trying to put my mark on the universe.",
+		title:
+			"Things I have done to learn and trying to put my mark on the universe.",
 		description:
 			"My development experience spans one year, with a primary focus on backend. I have worked with NodeJS and the Express framework to build web applications in JavaScript, integrating them with a PostgreSQL database. Furthermore, I have utilized React in various study projects and, in my most recent job, I gained experience with Node, React, AWS, TypeScript, and MongoDB.",
 	},
@@ -36,8 +37,10 @@ const INFO = {
 			description:
 				"Developed in a challenge carried out in the subject of client and server side web applications at CRIE_TI.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			secondaryLogo:
+			secondLogo:
 				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			thirdLogo:
+				"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/maaschmidt/bookstore_crud",
 		},
@@ -47,7 +50,7 @@ const INFO = {
 			description:
 				"Developed in a challenge carried out in the subject of client side web applications at CRIE_TI.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			secondaryLogo:
+			secondLogo:
 				"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
 			linkText: "View Project",
 			link: "https://maaschmidt.github.io/pet_shop/",

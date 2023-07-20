@@ -13,7 +13,12 @@ const AllProjects = () => {
 				<div className="all-projects-project" key={index}>
 					<Project
 						logo={project.logo}
-						secondaryLogo={project.secondaryLogo}
+						secondLogo={project.secondLogo}
+						thirdLogo={project.thirdLogo}
+						FourthLogo={project.FourthLogo}
+						FifthLogo={project.FifthLogo}
+						sixthLogo={project.sixthLogo}
+						seventhLogo={project.seventhLogo}
 						title={project.title}
 						description={project.description}
 						linkText={project.linkText}
