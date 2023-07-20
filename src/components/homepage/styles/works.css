@@ -1,0 +1,69 @@
+@import "../../../data/styles.css";
+
+.works {
+	width: 100%;
+	margin: 1rem;
+}
+
+.works-body {
+	text-decoration: none;
+	margin-bottom: 1rem;
+}
+
+.work a {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	text-decoration: none;
+	height: 3.5rem;
+	margin-bottom: 1rem;
+}
+
+.work {
+	transition: all 1s ease-in-out;
+}
+
+.work:hover {
+	background: #f1f1f1;
+	border-radius: 2rem;
+	transition: all 0.3s;
+}
+
+.work-image {
+	height: 30px;
+	width: 30px;
+	margin-left: 0.8rem;
+	border-radius: 50%;
+	outline: 6px solid white;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.work-description {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.work-titles {
+	padding-left: 1rem;
+}
+
+.work-title {
+	font-size: 15px;
+	font-weight: 700;
+	color: var(--secondary-color);
+}
+
+.work-subtitle {
+	font-size: 12px;
+	color: var(--secondary-color);
+}
+
+.work-duration {
+	width: 5rem;
+	padding: 1rem;
+	font-size: 12px;
+	text-align: right;
+	color: var(--tertiary-color);
+}
