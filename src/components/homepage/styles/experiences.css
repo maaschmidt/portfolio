@@ -3,13 +3,11 @@
 .experiences {
 	width: 100%;
 	margin: 1rem;
-	/* background-color: yellow; */
 }
 
 .experiences-body {
 	text-decoration: none;
-	margin-bottom: 1rem;
-	/* background-color: red; */
+	margin-bottom: 1rem;	
 }
 
 .experience a {
