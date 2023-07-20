@@ -36,17 +36,10 @@ const Contact = () => {
 					</div>
 
 					<div className="contact-container">
-						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
-						</div>
+						<div className="title contact-title">{INFO.contact.title}</div>
 
 						<div className="subtitle contact-subtitle">
-							Lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s, when an unknown printer took a galley of
-							type and scrambled it to make a type specimen book. It has
-							survived not only five centuries, but also the leap into
-							electronic typesetting, remaining essentially unchanged.
+							{INFO.contact.description}
 						</div>
 					</div>
 
