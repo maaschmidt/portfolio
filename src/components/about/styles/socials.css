@@ -23,7 +23,7 @@
 	font-size: 14px;
 }
 
-.email::before {
+.email::after {
 	content: "";
 	display: block;
 	padding-top: 20px;
