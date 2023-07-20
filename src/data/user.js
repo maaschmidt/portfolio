@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-template-curly-in-string */
 const INFO = {
 	main: {
@@ -67,7 +68,7 @@ const INFO = {
 	contact: {
 		title: "Let's Get in Touch: Ways to Connect with Me",
 		description:
-			"Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at &nbsp; <a href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods.",
+			"Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to send an email. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods.",
 	},
 };
 
