@@ -19,15 +19,15 @@ const INFO = {
 
 	about: {
 		title:
-			"I’m Marcel Schmidt I live in Brazil, where I blend code and creativity.",
+			"I’m Marcel Schmidt and I live in Brazil, where I blend code and creativity.",
 		description:
-			"As a Web Developer, my work involved successful integration with APIs, enabling access to valuable information and enhancing the functionality of the developed applications. Using React, I built interactive and dynamic pages, providing an engaging user experience.",
+			"As a Web Developer, my work involved successful integration with APIs, enabling access to valuable information and enhancing the functionality of the developed applications. Using React, I have built interactive and dynamic pages, providing an engaging user experience.",
 	},
 
 	projectsPage: {
-		title: "Things I did to learn and trying to put my mark on the universe.",
+		title: "Things I have done to learn and trying to put my mark on the universe.",
 		description:
-			"My development experience spans one year, with a primary focus on backend. I have worked with NodeJS and the Express framework to build web applications in JavaScript, integrating them with a PostgreSQL database. Additionally, I have utilized React in various study projects and, in my most recent job, I gained experience with Node, React, AWS, TypeScript, and MongoDB.",
+			"My development experience spans one year, with a primary focus on backend. I have worked with NodeJS and the Express framework to build web applications in JavaScript, integrating them with a PostgreSQL database. Furthermore, I have utilized React in various study projects and, in my most recent job, I gained experience with Node, React, AWS, TypeScript, and MongoDB.",
 	},
 
 	projects: [
