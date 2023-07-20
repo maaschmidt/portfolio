@@ -34,7 +34,7 @@ const INFO = {
 		{
 			title: "Bookstore CRUD",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developed in a challenge carried out in the subject of client and server side web applications at CRIE_TI.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			secondaryLogo:
 				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
@@ -45,7 +45,7 @@ const INFO = {
 		{
 			title: "Pet&Shop",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developed in a challenge carried out in the subject of client side web applications at CRIE_TI.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			secondaryLogo:
 				"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
@@ -56,7 +56,7 @@ const INFO = {
 		{
 			title: "Gun Play RPG",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developed in challenge realized in the subject of OOP (object oriented programming) in CRIE_TI.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/maaschmidt/gun_play",
