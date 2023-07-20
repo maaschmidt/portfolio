@@ -23,7 +23,7 @@ const Project = (props) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link to={link}>
+				<Link to={link} target="_blank">
 					<div className="project-container">
 						<div className="project-logo">
 							<img src={logo} alt="firstLogo" />
