@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faGithub,
-	faLinkedin
-} from "@fortawesome/free-brands-svg-icons";
-
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -16,7 +11,6 @@ import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/homepage.css";
 import Educations from "../components/homepage/educations";
@@ -54,8 +48,6 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
-
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
@@ -68,12 +60,6 @@ const Homepage = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta name="keywords" content={currentSEO.keywords.join(", ")} />
-			</Helmet>
-
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
