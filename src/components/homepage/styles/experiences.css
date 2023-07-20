@@ -1,16 +1,16 @@
 @import "../../../data/styles.css";
 
-.works {
+.experiences {
 	width: 100%;
 	margin: 1rem;
 }
 
-.works-body {
+.experiences-body {
 	text-decoration: none;
-	margin-bottom: 1rem;
+	margin-bottom: 1rem;	
 }
 
-.work a {
+.experience a {
 	display: flex;
 	width: 100%;
 	align-items: center;
@@ -19,17 +19,17 @@
 	margin-bottom: 1rem;
 }
 
-.work {
+.experience {
 	transition: all 1s ease-in-out;
 }
 
-.work:hover {
+.experience:hover {
 	background: var(--quaternary-color);
 	border-radius: 2rem;
 	transition: all 0.3s;
 }
 
-.work-image {
+.experience-image {
 	height: 30px;
 	width: 30px;
 	margin-left: 0.8rem;
@@ -38,31 +38,31 @@
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
 }
 
-.work-description {
+.experience-description {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.work-titles {
+.experience-titles {
 	padding-left: 1rem;
 }
 
-.work-title {
+.experience-title {
 	font-size: 15px;
 	font-weight: 700;
 	color: var(--secondary-color);
 }
 
-.work-subtitle {
+.experience-subtitle {
 	font-size: 12px;
 	color: var(--secondary-color);
 }
 
-.work-duration {
+.experience-duration {
 	width: 5rem;
-	padding: 1rem;
+	padding-right: 1rem;
 	font-size: 12px;
 	text-align: right;
 	color: var(--secondary-color);
