@@ -3,17 +3,20 @@ import React, { useState, useEffect } from "react";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+	faBriefcase,
+	faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import Experiences from "../components/homepage/experiences";
 
 import INFO from "../data/user";
 
 import "./styles/homepage.css";
-import Educations from "../components/homepage/educations";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -124,8 +127,16 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<Works />
-							<Educations />
+							<Experiences
+								title="Works"
+								icon={faBriefcase}
+								data={INFO.homepage.works}
+							/>
+							<Experiences
+								title="Educations"
+								icon={faGraduationCap}
+								data={INFO.homepage.educations}
+							/>
 						</div>
 
 						<div className="page-footer">
