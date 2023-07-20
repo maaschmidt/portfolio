@@ -17,7 +17,7 @@ const Works = () => {
 						{INFO.homepage.works.map((work, index) => (
 							<div className="work" key={index}>
 								<a href={work.href} target="_blank" rel="noreferrer">
-									<img src="./caf.png" alt="caf" className="work-image" />
+									<img src={work.logo} alt={work.title} className="work-image" />
 									<div className="work-description">
 										<div className="work-titles">
 											<div className="work-title">{work.title}</div>

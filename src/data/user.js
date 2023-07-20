@@ -24,7 +24,36 @@ const INFO = {
 				duration: "2022 - 2023",
 			},
 		],
-		educations: [],
+		educations: [
+			{
+				logo: "./univates.jpeg",
+				href: "https://www.univates.br/graduacao/analise-e-desenvolvimento-de-sistemas",
+				title: "Análise e Desenvolvimento de Sistemas",
+				institution: "Univates",
+				duration: "2023 - 2024",
+			},
+			{
+				logo: "./univates.jpeg",
+				href: "https://www.univates.br/crieti",
+				title: "Formação Intensiva e Imersiva CRIE_TI",
+				institution: "Univates",
+				duration: "1200 hours",
+			},
+			{
+				logo: "./cursoVideo.png",
+				href: "https://www.cursoemvideo.com/curso/curso-de-git-e-github/",
+				title: "Git e GitHub",
+				institution: "Curso em Video",
+				duration: "20 hours",
+			},
+			{
+				logo: "./cursoVideo.png",
+				href: "https://www.cursoemvideo.com/curso/algoritmo/",
+				title: "Algoritmo",
+				institution: "Curso em Video",
+				duration: "40 hours",
+			},
+		],
 	},
 
 	about: {
