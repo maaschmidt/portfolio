@@ -94,6 +94,7 @@
 	}
 
 	.about-left-side {
+		align-items: center;
 		flex-basis: 100%;
 		order: 1;
 	}

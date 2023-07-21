@@ -15,8 +15,8 @@ const AllProjects = () => {
 						logo={project.logo}
 						secondLogo={project.secondLogo}
 						thirdLogo={project.thirdLogo}
-						FourthLogo={project.FourthLogo}
-						FifthLogo={project.FifthLogo}
+						fourthLogo={project.fourthLogo}
+						FifthLogo={project.fifthLogo}
 						sixthLogo={project.sixthLogo}
 						seventhLogo={project.seventhLogo}
 						title={project.title}

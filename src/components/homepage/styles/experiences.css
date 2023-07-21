@@ -21,6 +21,7 @@
 
 .experience {
 	transition: all 1s ease-in-out;
+	border-radius: 2rem;
 }
 
 .experience:hover {
@@ -66,4 +67,10 @@
 	font-size: 12px;
 	text-align: right;
 	color: var(--secondary-color);
+}
+
+@media (max-width: 1024px) {
+	.experiences {
+		margin: 0;
+	}
 }
