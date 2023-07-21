@@ -122,11 +122,14 @@
 	}
 
 	.homepage-first-area-right-side {
+		display: flex;
+		justify-content: center;
 		width: 100%;
 		order: 1;
 	}
 
 	.homepage-image-container {
+		width: 100%;
 		padding-top: 50px;
 		padding-bottom: 50px;
 		margin-left: 10px;
@@ -135,6 +138,7 @@
 
 	.homepage-after-title {
 		flex-direction: column;
+		gap: 2rem;
 	}
 
 	.homepage-projects {

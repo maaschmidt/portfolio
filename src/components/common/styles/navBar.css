@@ -48,6 +48,7 @@
 .nav-item a {
 	text-decoration: none;
 	color: var(--primary-color);
+	transition: color 0.3s ease-in-out;
 }
 
 .nav-item a:hover {
@@ -57,8 +58,6 @@
 
 @media (max-width: 600px) {
 	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
 		width: 80%;
 		font-size: 80%;
 	}

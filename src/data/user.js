@@ -75,10 +75,12 @@ const INFO = {
 			title: "Bookstore CRUD",
 			description:
 				"Developed in a challenge carried out in the subject of client and server side web applications at CRIE_TI.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
 			secondLogo:
-				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			thirdLogo:
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			fourthLogo:
 				"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/maaschmidt/bookstore_crud",

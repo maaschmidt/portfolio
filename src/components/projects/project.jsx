@@ -10,8 +10,8 @@ const Project = (props) => {
 		logo,
 		secondLogo,
 		thirdLogo,
-		FourthLogo,
-		FifthLogo,
+		fourthLogo,
+		fifthLogo,
 		sixthLogo,
 		seventhLogo,
 		title,
@@ -29,8 +29,8 @@ const Project = (props) => {
 							<img src={logo} alt="firstLogo" />
 							<img src={secondLogo} alt="secondLogo" />
 							<img src={thirdLogo} alt="thirdLogo" />
-							<img src={FourthLogo} alt="FourthLogo" />
-							<img src={FifthLogo} alt="FifthLogo" />
+							<img src={fourthLogo} alt="fourthLogo" />
+							<img src={fifthLogo} alt="fifthLogo" />
 							<img src={sixthLogo} alt="sixthLogo" />
 							<img src={seventhLogo} alt="seventhLogo" />
 						</div>
