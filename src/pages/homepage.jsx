@@ -18,7 +18,7 @@ import INFO from "../data/user";
 
 import "./styles/homepage.css";
 
-const Homepage = () => {
+const Homepage = (props) => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);

@@ -22,6 +22,10 @@
 	position: relative;
 }
 
+.dark-theme .page-content {
+	background-color: #331D2C;
+}
+
 .page-content:before,
 .page-content:after {
 	content: "";
@@ -31,6 +35,14 @@
 	width: calc((100% - 1200px) / 2);
 	background-color: #fafafa;
 	border: 1px solid #f4f4f5;
+}
+
+.dark-theme
+.page-content:before,
+.dark-theme
+.page-content:after {
+	background-color: #3F2E3E;
+	border: 1px solid #3F2E3E;
 }
 
 .page-content:before {
