@@ -35,6 +35,10 @@
 	width: 85% !important;
 }
 
+.dark-theme .homepage-subtitle {
+	color: var(--tertiary-color);
+}
+
 .homepage-image-container {
 	width: 400px;
 }
@@ -67,6 +71,10 @@
 	font-size: 25px;
 	transition: color 0.2s ease-in-out;
 	color: var(--secondary-color);
+}
+
+.dark-theme .homepage-social-icon {
+	color: var(--quaternary-color);
 }
 
 .homepage-social-icon:hover {

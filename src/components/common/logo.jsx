@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/logo.css";
+import { ThemeContext } from "../../context/ThemeContext";
 
 const Logo = (props) => {
+	const { isDarkTheme } = useContext(ThemeContext);
 	let { width, link } = props;
 
 	if (link === undefined) {
@@ -11,7 +13,12 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src='./logo.png' alt="logo" className="logo" width={width} />
+		<img
+			src={isDarkTheme ? "./logo-white.png" : "./logo.png"}
+			alt="logo"
+			className="logo"
+			width={width}
+		/>
 	);
 
 	return (

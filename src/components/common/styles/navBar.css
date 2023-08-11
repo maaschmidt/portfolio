@@ -55,7 +55,7 @@
 }
 
 .dark-theme .nav-item.active a {
-	color: #c77dff !important;
+	color: var(--link-color-dark) !important;
 }
 
 .nav-item a {

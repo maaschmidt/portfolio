@@ -6,6 +6,10 @@
 	outline: 2px solid #f4f4f5;
 }
 
+.dark-theme .card {
+	outline: 2px solid var(--secondary-color);
+}
+
 .card-container {
 	padding: 1.5rem;
 	padding-bottom: 5px;
@@ -26,6 +30,10 @@
 	font-size: 14px;
 	padding-left: 20px;
 	font-weight: 650;
+}
+
+.dark-theme .card-title {
+	color: var(--tertiary-color);
 }
 
 .card-body {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,11 +17,14 @@ import Experiences from "../components/homepage/experiences";
 import INFO from "../data/user";
 
 import "./styles/homepage.css";
+import { ThemeContext } from "../context/ThemeContext";
 
 const Homepage = (props) => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
+
+	const { isDarkTheme } = useContext(ThemeContext);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -56,9 +59,19 @@ const Homepage = (props) => {
 		position: stayLogo ? "fixed" : "relative",
 		top: stayLogo ? "3vh" : "auto",
 		zIndex: 999,
-		border: stayLogo ? "1px solid white" : "none",
+		border:
+			stayLogo && isDarkTheme
+				? "1px solid #331D2C"
+				: stayLogo
+				? "1px solid white"
+				: "none",
 		borderRadius: stayLogo ? "50%" : "none",
-		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
+		boxShadow:
+			stayLogo && isDarkTheme
+				? "0px 4px 10px rgba(255, 255, 255, 0.25)"
+				: stayLogo
+				? "0px 4px 10px rgba(0, 0, 0, 0.25)"
+				: "none",
 	};
 
 	return (
