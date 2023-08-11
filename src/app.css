@@ -13,16 +13,30 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #f1f1f1;
+	background-color: transparent;
+}
+	
+body.dark-theme::-webkit-scrollbar-track {
+	background-color: #3F2E3E;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #383636;
+	background-color: var(--tertiary-color);
 	border-radius: 5px;
+	border: 3px solid #fafafa;
+}
+
+body.dark-theme::-webkit-scrollbar-thumb {
+	background-color: var(--secondary-color);
+	border: 3px solid #3F2E3E;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: rgb(0, 0, 0);
+	background-color: var(--link-color);
+}
+
+body.dark-theme::-webkit-scrollbar-thumb:hover {
+	background-color: var(--link-color-dark);
 }
 
 .page-content {

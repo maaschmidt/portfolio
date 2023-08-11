@@ -38,6 +38,10 @@
 	color: var(--link-color);
 }
 
+.dark-theme .footer-nav-link-list a:hover {
+	color: var(--link-color-dark);
+}
+
 .footer-credits-text {
 	justify-content: flex-end;
 	color: var(--tertiary-color);

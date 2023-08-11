@@ -81,6 +81,10 @@
 	color: var(--primary-color);
 }
 
+.dark-theme .homepage-social-icon:hover {
+	color: var(--tertiary-color);
+}
+
 .homepage-after-title {
 	display: flex;
 	width: 100%;
