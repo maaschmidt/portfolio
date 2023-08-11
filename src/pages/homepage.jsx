@@ -61,7 +61,7 @@ const Homepage = (props) => {
 		zIndex: 999,
 		border:
 			stayLogo && isDarkTheme
-				? "1px solid #331D2C"
+				? "1px solid none"
 				: stayLogo
 				? "1px solid white"
 				: "none",
