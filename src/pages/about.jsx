@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -8,8 +8,11 @@ import Socials from "../components/about/socials";
 import INFO from "../data/user";
 
 import "./styles/about.css";
+import { ThemeContext } from "../context/ThemeContext";
 
 const About = () => {
+	const { isDarkTheme } = useContext(ThemeContext);
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -38,7 +41,11 @@ const About = () => {
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
-										<img src="about.jpg" alt="about" className="about-image" />
+										<img
+											src={isDarkTheme ? "about-dark.jpg" : "about.jpg"}
+											alt="about"
+											className="about-image"
+										/>
 									</div>
 								</div>
 

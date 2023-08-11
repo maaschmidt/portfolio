@@ -23,6 +23,10 @@
 	font-size: 14px;
 }
 
+.dark-theme .social-icon, .dark-theme .social-text {
+	color: var(--tertiary-color);
+}
+
 .email::after {
 	content: "";
 	display: block;
