@@ -27,13 +27,16 @@
 	width: 85% !important;
 }
 
+.dark-theme .homepage-title {
+	color: white;
+}
+
 .homepage-subtitle {
 	width: 85% !important;
 }
 
 .homepage-image-container {
 	width: 400px;
-	
 }
 
 .homepage-image-wrapper {

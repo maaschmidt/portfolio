@@ -1,5 +1,13 @@
 @import "/src/data/styles.css";
 
+body {
+	background-color: #fafafa;
+}
+
+.dark-theme {
+	background-color: #3F2E3E;
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 }

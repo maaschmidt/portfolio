@@ -47,7 +47,6 @@ const NavBar = (props) => {
 					<MaterialUISwitch
 						sx={{ m: 1 }}
 						onClick={toggleTheme}
-						defaultChecked={true}
 					/>
 				</nav>
 			</div>

@@ -17,6 +17,15 @@ function App() {
 	const { isDarkTheme } = useContext(ThemeContext);
 
 	useEffect(() => {
+		const body = document.body;
+		if (isDarkTheme) {
+			body.classList.add("dark-theme");
+		} else {
+			body.classList.remove("dark-theme");
+		}
+	}, [isDarkTheme]);
+
+	useEffect(() => {
 		if (TRACKING_ID !== "") {
 			ReactGA.initialize(TRACKING_ID);
 		}
