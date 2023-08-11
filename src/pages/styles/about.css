@@ -14,7 +14,7 @@
 }
 
 .dark-theme .about-logo {
-	border: 1px solid #331D2C;
+	border: 1px solid transparent;
 	box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.25);
 }
 

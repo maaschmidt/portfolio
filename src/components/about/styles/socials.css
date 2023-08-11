@@ -35,6 +35,10 @@
 	margin-top: 20px;
 }
 
+.dark-theme .email::after {
+	border-top: 3px solid #3F2E3E;
+}
+
 .email-wrapper {
 	padding-top: 20px;
 }
