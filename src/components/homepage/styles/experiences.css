@@ -30,13 +30,21 @@
 	transition: all 0.3s;
 }
 
+.dark-theme .experience:hover {
+	background: var(--secondary-color);
+}
+
 .experience-image {
-	height: 30px;
-	width: 30px;
+	height: 36px;
+	width: 36px;
 	margin-left: 0.8rem;
 	border-radius: 50%;
-	outline: 6px solid white;
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dark-theme .experience-image {
+	box-shadow: 0px 7px 10px rgba(255, 255, 255, 0.25);
+	background-color: white;
 }
 
 .experience-description {
@@ -67,6 +75,12 @@
 	font-size: 12px;
 	text-align: right;
 	color: var(--secondary-color);
+}
+
+.dark-theme .experience-title, 
+.dark-theme .experience-subtitle,
+.dark-theme .experience-duration {
+	color:  var(--quaternary-color);
 }
 
 @media (max-width: 1024px) {

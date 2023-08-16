@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+
+import MaterialUISwitch from "./switch";
+
+import { ThemeContext } from "../../context/ThemeContext";
 
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
 	const { active } = props;
+	const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
 
 	return (
 		<React.Fragment>
@@ -38,6 +43,12 @@ const NavBar = (props) => {
 							</li>
 						</ul>
 					</div>
+
+					<MaterialUISwitch
+						sx={{ m: 1 }}
+						onClick={toggleTheme}
+						defaultChecked={isDarkTheme}
+					/>
 				</nav>
 			</div>
 		</React.Fragment>

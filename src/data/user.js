@@ -41,6 +41,13 @@ const INFO = {
 			},
 			{
 				logo: "./cursoVideo.png",
+				href: "https://www.cursoemvideo.com/curso/seguranca-da-informacao-modulo-00/",
+				title: "Segurança da Informação",
+				institution: "Curso em Video",
+				duration: "40 hours",
+			},
+			{
+				logo: "./cursoVideo.png",
 				href: "https://www.cursoemvideo.com/curso/curso-de-git-e-github/",
 				title: "Git e GitHub",
 				institution: "Curso em Video",

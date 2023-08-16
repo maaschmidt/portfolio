@@ -18,6 +18,10 @@
 	transition: all 0.3s ease-in-out;
 }
 
+.dark-theme .project:hover {
+	background: var(--secondary-color);
+}
+
 .project-link {
 	transition: color 0.3s ease-in-out;
 }
@@ -25,6 +29,9 @@
 .project:hover .project-link {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
+}
+.dark-theme .project:hover .project-link {
+	color: var(--link-color-dark);
 }
 
 .project-container {
@@ -51,8 +58,16 @@
 	font-weight: 700;
 }
 
+.dark-theme .project-title {
+	color: #fafafa;
+}
+
 .project-description {
 	color: var(--secondary-color);
+}
+
+.dark-theme .project-description {
+	color: var(--quaternary-color);
 }
 
 .project-link {

@@ -14,12 +14,29 @@
 	z-index: 999;
 }
 
+.dark-theme .projects-logo {
+	border: 1px solid transparent;
+	box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.25);
+}
+
 .projects-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
 	padding-top: 120px;
+}
+
+.dark-theme .projects-title {
+	color: white;
+}
+
+.projects-subtitle {
+	width: 100% !important;
+}
+
+.dark-theme .projects-subtitle {
+	color: var(--tertiary-color);
 }
 
 @media (max-width: 600px) {

@@ -27,13 +27,20 @@
 	width: 85% !important;
 }
 
+.dark-theme .homepage-title {
+	color: white;
+}
+
 .homepage-subtitle {
 	width: 85% !important;
 }
 
+.dark-theme .homepage-subtitle {
+	color: var(--tertiary-color);
+}
+
 .homepage-image-container {
 	width: 400px;
-	
 }
 
 .homepage-image-wrapper {
@@ -66,8 +73,16 @@
 	color: var(--secondary-color);
 }
 
+.dark-theme .homepage-social-icon {
+	color: var(--quaternary-color);
+}
+
 .homepage-social-icon:hover {
 	color: var(--primary-color);
+}
+
+.dark-theme .homepage-social-icon:hover {
+	color: var(--tertiary-color);
 }
 
 .homepage-after-title {
