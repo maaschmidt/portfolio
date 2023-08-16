@@ -23,12 +23,20 @@
 	font-size: 14px;
 }
 
+.dark-theme .social-icon, .dark-theme .social-text {
+	color: var(--tertiary-color);
+}
+
 .email::after {
 	content: "";
 	display: block;
 	padding-top: 20px;
 	border-top: 3px solid #f4f4f5;
 	margin-top: 20px;
+}
+
+.dark-theme .email::after {
+	border-top: 3px solid #3F2E3E;
 }
 
 .email-wrapper {

@@ -8,8 +8,7 @@
   - [🛠 Installation and Setup Instructions](#-installation-and-setup-instructions)
   - [📁 Folder structure](#-folder-structure)
   - [⚙️ Configurations](#️-configurations)
-  - [📈 Google Analytics](#-google-analytics)
-  - [🚀 Building the React App](#-building-the-react-app)
+  - [� Building the React App](#-building-the-react-app)
 
 ## 📙 Features
 
@@ -53,12 +52,6 @@ Directory: `/src/data/`
 
   From this you can change the content of each page of the web application.
 
-- `seo.js`
-
-  The SEO.js file is a module that contains an array of objects, with each object representing metadata for a specific page of a React website. The purpose of this file is to centralize and manage the SEO (Search Engine Optimization) information for different pages.
-
-  Each object in the SEO array has the following properties:
-
   `page`: Represents the page name or identifier. It helps in mapping the SEO data to the appropriate page.
 
   `title`: Specifies the title of the page. This title is typically displayed in the browser's title bar and is an important element for search engines.
@@ -68,17 +61,6 @@ Directory: `/src/data/`
   By storing the SEO information in the SEO.js file, you can easily manage and update the metadata for different pages of your React website. This approach allows you to keep the SEO data separate from the components and reuse it across the application, ensuring consistent and optimized metadata for each page.
 
   Example:
-
-  ```js
-  const SEO = [
-  	{
-  		page: "home",
-  		description:
-  			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-  		keywords: ["Marcel", "Schmidt", "Marcel Schmidt"],
-  	},
-  ];
-  ```
 
 - `styles.css`
 
@@ -100,14 +82,6 @@ Directory: `/src/data/`
   	/* --------------------- */
   }
   ```
-
-## 📈 Google Analytics
-
-Add your Google Analytics 4 MEASUREMENT ID to `/src/data/tracking.js`.
-
-How to find the Google Analytics 4 MEASUREMENT ID ?
-
-[https://support.google.com/analytics/answer/9539598?hl=en](https://support.google.com/analytics/answer/9539598?hl=en)
 
 ## 🚀 Building the React App
 

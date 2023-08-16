@@ -1,6 +1,8 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
+
+import { ThemeContext } from "./context/ThemeContext";
 
 import Homepage from "./pages/homepage";
 import About from "./pages/about";
@@ -12,6 +14,17 @@ import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
 function App() {
+	const { isDarkTheme } = useContext(ThemeContext);
+
+	useEffect(() => {
+		const body = document.body;
+		if (isDarkTheme) {
+			body.classList.add("dark-theme");
+		} else {
+			body.classList.remove("dark-theme");
+		}
+	}, [isDarkTheme]);
+
 	useEffect(() => {
 		if (TRACKING_ID !== "") {
 			ReactGA.initialize(TRACKING_ID);
@@ -19,7 +32,7 @@ function App() {
 	}, []);
 
 	return (
-		<div className="App">
+		<div className={`App ${isDarkTheme ? "dark-theme" : "light-theme"}`}>
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
